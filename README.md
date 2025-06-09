@@ -10,8 +10,8 @@ This project is a web page that show my skills in html and css.
 
 - [Main page]
 - [Technologies Used]
-- [Projects]
-- [Contact]
+- [Installtion]
+- [How to use]
 ## Main page
 
 Here I show a nav that send you to the link than get information about my Personal Information, Projects and Contact.
