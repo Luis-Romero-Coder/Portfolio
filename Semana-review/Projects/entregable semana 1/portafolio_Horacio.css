@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://png.pngtree.com/background/20231101/original/pngtree-dynamic-black-hexagon-wave-a-futuristic-honeycomb-concept-of-digital-technology-picture-image_5824213.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    animation: fandeIn 2s forwards;
+}
+
+*{
+    color: #b3b3b3;
+}
+ul{
+    margin:0 47%;
+}
+#imagen_1{
+    border-radius: 50px;
+}
+#imagen_2{
+    border-radius: 50px;
+}
+.list_picture{
+    max-width: 60px;
+}
+@keyframes fandeIn {
+    to{
+        opacity: 1;
+    }
+}

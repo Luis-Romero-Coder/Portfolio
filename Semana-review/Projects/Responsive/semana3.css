@@ -1,0 +1,120 @@
+@media (max-width:480px){
+    
+    body{
+        background-color: rgb(238, 255, 0);
+        display: flex;
+        flex-direction: column;
+        
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+    }
+    nav{
+        display: flex;
+        border: 1px solid black;
+        justify-content: center;
+    }
+    nav ul{
+        border: 1px solid black;
+    }
+    nav ul li{
+        border: 1px solid black;
+        justify-content: flex-end;
+    }
+    main{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-container{
+        border: 1px solid rgb(255, 0, 0);
+        
+    }
+    .grid-item{
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width:481px) and (max-width:1023px){
+    
+    body{
+        background-color: rgb(0, 255, 13);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        border: 1px solid blue;
+    }
+    nav ul{
+        border: 1px solid blue;
+    }
+    nav ul li{
+        border: 1px solid blue;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        border: 1px solid blue;
+    }
+    .grid-container{
+        border: 1px solid blue;
+    }
+    .grid-item{
+        border: 1px solid blue;
+    }
+    footer{
+        display: flex;
+        justify-content: flex-end;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    p{
+        text-align: right;
+    }
+}
+@media (min-width:1024px){
+    
+    body{
+        background-color: rgb(0, 47, 255);
+    }
+    header{
+        border: 1px solid rgb(33, 24, 161);
+    }
+    nav ul{
+        border: 1px solid red;
+    }
+    nav ul li{
+        border: 1px solid red;
+    }
+    main{
+        border: 1px solid red;
+    }
+    .grid-container{
+        border: 1px solid red;
+    }
+    .grid-item{
+        border: 1px solid red;
+    }
+}

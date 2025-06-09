@@ -1,0 +1,77 @@
+/* center all information and put a page background */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(https://okdiario.com/look/img/2017/04/17/pollos-hermanos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+/* I put a border to the header */
+header{
+  border: 1px solid red;
+  box-shadow: 5px 5px 10px;
+}
+/* I put a animation to the header */
+header:hover{
+  background-color: red;
+}
+/* I center the tittle */
+h2{
+  display: flex;
+  justify-content: center;
+}
+/* I put shadows to the boxes of sections */
+section{
+  box-shadow: 5px 5px 10px;
+}
+/* I center de paragraphs */
+p {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 2rem;
+  text-align: center;
+}
+/* I create a border to the box */
+#sign {
+  border: 1px solid yellow;
+  transition: background-color 0.3s ease;
+}
+/* I use hover to put color background  */
+#sign:hover{
+  background-color: yellow;
+}
+/* I create a border to the box */
+#property {
+  border: 1px solid blue;
+  margin: 0 30%;
+}
+/* I use hover to put color background  */
+#property:hover{
+  background-color: blue;
+}
+/* I create a border to the box */
+#menu {
+  border: 1px solid red;
+}
+/* I use hover to put color background  */
+#menu:hover{
+  background-color: red;
+}
+/* I create a border to the box */
+#location {
+  border: 1px solid rgb(7, 208, 243);
+}
+/* I use hover to put color background  */
+#location:hover{
+  background-color: rgb(7, 208, 243);
+}
+/* I use this to make the ilusion than appear the content*/
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
